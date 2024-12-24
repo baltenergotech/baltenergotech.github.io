@@ -1,0 +1,30 @@
+2024.12.24 16:43:37       ------------------------------------------------------------------------------------------ 
+2024.12.24 16:43:37       START 'run_git.cmd' 
+2024.12.24 16:43:37 INFO  LOG FILE - 'C:\PROJECT_VS\7-SPB-WEB\baltenergotech.github.io\run_git.cmd.auto.commit.push.log' 
+2024.12.24 16:43:37 INFO  íÖäìôÖâ äÄíÄãéÉ: 'C:\PROJECT_VS\7-SPB-WEB\baltenergotech.github.io' 
+2024.12.24 16:43:37 INFO  ëãìóÄâçéÖ ÑÖëüíàóçéÖ óàëãé: 21261 
+2024.12.24 16:43:37 INFO  START 'run_git.cmd' - OK 
+2024.12.24 16:43:37 INFO  DEBUG = '0' 
+2024.12.24 16:43:37 INFO  êÖÜàå éíãÄÑäà - éíäãûóÖç 
+2024.12.24 16:43:37       ROOTDIR = 'C:\PROJECT_VS\7-SPB-WEB\baltenergotech.github.io' ... 
+2024.12.24 16:43:37 INFO  èéàëä ìíàãàí 
+2024.12.24 16:43:37 INFO  FIND '7z.exe' ... 
+2024.12.24 16:43:37       FOUND ZIPEXE = 'C:\Program Files\7-Zip\7z.exe' 
+2024.12.24 16:43:37 INFO  FIND 'wget.exe' ... 
+2024.12.24 16:43:37       FOUND WGETEXE = 'C:\Windows\wget.exe' 
+2024.12.24 16:43:37 INFO  FIND 'rclone.exe' ... 
+2024.12.24 16:43:37       FOUND RCLONEEXE = 'Z:\0_RCLONE\rclone.exe' 
+2024.12.24 16:43:37 INFO  FIND 'git.exe' ... 
+2024.12.24 16:43:37       FOUND GITEXE = 'C:\Program Files\Git\cmd\git.exe' 
+2024.12.24 16:43:37 INFO  FIND 'gh.exe' ... 
+2024.12.24 16:43:37       FOUND GHEXE = 'C:\Program Files\GitHub CLI\gh.exe' 
+2024.12.24 16:43:37 INFO  ZIPEXE    = 'C:\Program Files\7-Zip\7z.exe' 
+2024.12.24 16:43:37 INFO  WGETEXE   = 'C:\Windows\wget.exe' 
+2024.12.24 16:43:37 INFO  RCLONEEXE = 'Z:\0_RCLONE\rclone.exe' 
+2024.12.24 16:43:37 INFO  GITEXE    = 'C:\Program Files\Git\cmd\git.exe' 
+2024.12.24 16:43:37 INFO  GHEXE     = 'C:\Program Files\GitHub CLI\gh.exe' 
+2024.12.24 16:43:37 INFO  ÇÖêïçàâ äÄíÄãéÉ: 'baltenergotech.github.io' 
+2024.12.24 16:43:37 INFO  REPONAME: 'baltenergotech.github.io' 
+2024.12.24 16:43:37 INFO  RUN COMMAND 'autocommitpush' ... 
+2024.12.24 16:43:37 INFO  START ':GITAUTOCOMMIT' - OK 
+2024.12.24 16:43:37 INFO  GIT ADD AUTO COMMIT ... 
