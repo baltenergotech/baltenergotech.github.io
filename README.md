@@ -14,7 +14,7 @@ So far, I will state everything briefly.
 
 - baltenergotech.github.io [`ССЫЛКА`](https://baltenergotech.github.io)
 
-- [Bootstrap] (https://getbootstrap.com)
+- [Bootstrap](https://getbootstrap.com)
 
 ### 3. Используемые программы
 
