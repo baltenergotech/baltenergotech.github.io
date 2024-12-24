@@ -1,8 +1,9 @@
 # baltenergotech.github.io
 
-Привет всем. Hi everyone. :wave:
+Привет всем.  
+Hi everyone. :wave:
 
-Пока все изложу все кратко. 
+Пока все изложу все кратко.  
 So far, I will state everything briefly.
 
 ## Оглавление
