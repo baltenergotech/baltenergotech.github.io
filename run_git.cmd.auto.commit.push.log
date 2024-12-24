@@ -379,3 +379,38 @@
 2024.12.24 18:10:44 INFO  RUN COMMAND 'autocommitpush' ... 
 2024.12.24 18:10:44 INFO  START ':GITAUTOCOMMIT' - OK 
 2024.12.24 18:10:44 INFO  GIT ADD AUTO COMMIT ... 
+2024.12.24 18:10:44 INFO  END ':GITAUTOCOMMIT' - OK 
+2024.12.24 18:10:44 INFO  START ':GITAUTOPUSH' - OK 
+2024.12.24 18:10:44 INFO  GIT AUTO PUSH REMOTE ... 
+2024.12.24 18:10:47 INFO  END ':GITAUTOPUSH' - OK 
+2024.12.24 18:10:47 INFO  END 'run_git.cmd' - OK 
+2024.12.24 18:14:11       ------------------------------------------------------------------------------------------ 
+2024.12.24 18:14:11       START 'run_git.cmd' 
+2024.12.24 18:14:11 INFO  LOG FILE - 'C:\PROJECT_VS\7-SPB-WEB\baltenergotech.github.io\run_git.cmd.auto.commit.push.log' 
+2024.12.24 18:14:11 INFO  íÖäìôÖâ äÄíÄãéÉ: 'C:\PROJECT_VS\7-SPB-WEB\baltenergotech.github.io' 
+2024.12.24 18:14:11 INFO  ëãìóÄâçéÖ ÑÖëüíàóçéÖ óàëãé: 6238 
+2024.12.24 18:14:11 INFO  START 'run_git.cmd' - OK 
+2024.12.24 18:14:11 INFO  DEBUG = '0' 
+2024.12.24 18:14:11 INFO  êÖÜàå éíãÄÑäà - éíäãûóÖç 
+2024.12.24 18:14:11       ROOTDIR = 'C:\PROJECT_VS\7-SPB-WEB\baltenergotech.github.io' ... 
+2024.12.24 18:14:11 INFO  èéàëä ìíàãàí 
+2024.12.24 18:14:11 INFO  FIND '7z.exe' ... 
+2024.12.24 18:14:11       FOUND ZIPEXE = 'C:\Program Files\7-Zip\7z.exe' 
+2024.12.24 18:14:11 INFO  FIND 'wget.exe' ... 
+2024.12.24 18:14:11       FOUND WGETEXE = 'C:\Windows\wget.exe' 
+2024.12.24 18:14:11 INFO  FIND 'rclone.exe' ... 
+2024.12.24 18:14:11       FOUND RCLONEEXE = 'Z:\0_RCLONE\rclone.exe' 
+2024.12.24 18:14:11 INFO  FIND 'git.exe' ... 
+2024.12.24 18:14:11       FOUND GITEXE = 'C:\Program Files\Git\cmd\git.exe' 
+2024.12.24 18:14:12 INFO  FIND 'gh.exe' ... 
+2024.12.24 18:14:12       FOUND GHEXE = 'C:\Program Files\GitHub CLI\gh.exe' 
+2024.12.24 18:14:12 INFO  ZIPEXE    = 'C:\Program Files\7-Zip\7z.exe' 
+2024.12.24 18:14:12 INFO  WGETEXE   = 'C:\Windows\wget.exe' 
+2024.12.24 18:14:12 INFO  RCLONEEXE = 'Z:\0_RCLONE\rclone.exe' 
+2024.12.24 18:14:12 INFO  GITEXE    = 'C:\Program Files\Git\cmd\git.exe' 
+2024.12.24 18:14:12 INFO  GHEXE     = 'C:\Program Files\GitHub CLI\gh.exe' 
+2024.12.24 18:14:12 INFO  ÇÖêïçàâ äÄíÄãéÉ: 'baltenergotech.github.io' 
+2024.12.24 18:14:12 INFO  REPONAME: 'baltenergotech.github.io' 
+2024.12.24 18:14:12 INFO  RUN COMMAND 'autocommitpush' ... 
+2024.12.24 18:14:12 INFO  START ':GITAUTOCOMMIT' - OK 
+2024.12.24 18:14:12 INFO  GIT ADD AUTO COMMIT ... 

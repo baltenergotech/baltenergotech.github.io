@@ -8,13 +8,15 @@ So far, I will state everything briefly.
 ## Оглавление
 1. [Общее описание](#1-Общее-описание)
 2. [Описание использования](#2-Описание-использования)
-   [Используемые программы](#Используемые-программы)
+3. [Используемые программы](#Используемые-программы)
 
-## 1. Общее описание
+### 1. Общее описание
 
- baltenergotech.github.io [`ССЫЛКА`](https://baltenergotech.github.io)
+- baltenergotech.github.io [`ССЫЛКА`](https://baltenergotech.github.io)
 
-### Используемые программы
+- [Bootstrap] (https://getbootstrap.com)
+
+### 3. Используемые программы
 
  Ссылки:
  Programs used, links:
