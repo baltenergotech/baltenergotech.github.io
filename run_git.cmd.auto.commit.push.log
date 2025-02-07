@@ -48,3 +48,31 @@
 2025.02.07 12:06:35 INFO  GIT ADD AUTO COMMIT ... 
 2025.02.07 12:06:36 INFO  •‘’ ˆŒŸ ‹œ‡‚€’…‹Ÿ:           'win10-artam\artamonov ' 
 2025.02.07 12:06:36 INFO  COMMITTXT 'The autocommit has been added to '2025.02.07 12:06:36' from 'win10-artam\artamonov '' 
+2025.02.07 12:06:36 WARN  :GITAUTOCOMMITPUSH - ˜€ƒ 2 
+2025.02.07 12:06:36 INFO  GIT AUTO PUSH REMOTE ... 
+2025.02.07 12:06:36 INFO  BRANCH = 'main' 
+2025.02.07 12:06:44 WARN  :GITAUTOCOMMITPUSH - END 
+2025.02.07 12:06:44 INFO  'run_git.cmd' - ERRORLEVEL '0' 
+2025.02.07 12:06:44 INFO  END: 'run_git.cmd' - OK 
+2025.02.07 12:18:43       ------------------------------------------------------------------------------------------ 
+2025.02.07 12:18:43       START 'run_git.cmd' 
+2025.02.07 12:18:43 INFO  LOG FILE - 'D:\SPB-BET-WEB\baltenergotech.github.io\run_git.cmd.auto.commit.push.log' 
+2025.02.07 12:18:43 INFO  ‘‹“—€‰… „…‘Ÿ’ˆ—… —ˆ‘‹: 17482 
+2025.02.07 12:18:43 INFO  START: 'run_git.cmd' - OK 
+2025.02.07 12:18:43 INFO  DEBUG = '0' 
+2025.02.07 12:18:43 INFO  …†ˆŒ ’‹€„Šˆ - ’Š‹—… 
+2025.02.07 12:18:43 INFO  ’…Š“™…‰ Š€’€‹ƒ: 'D:\SPB-BET-WEB\baltenergotech.github.io' 
+2025.02.07 12:18:43 INFO  ˆ‘Š “’ˆ‹ˆ’ 
+2025.02.07 12:18:43       FOUND ZIPEXE = 'C:\Program Files\7-Zip\7z.exe' 
+2025.02.07 12:18:43       FOUND WGETEXE = 'C:\Windows\wget.exe' 
+2025.02.07 12:18:43       FOUND GITEXE = 'C:\Program Files\Git\cmd\git.exe' 
+2025.02.07 12:18:43       FOUND GHEXE = 'C:\Program Files\GitHub CLI\gh.exe' 
+2025.02.07 12:18:43 TEST  ‚…Š€ ˆ‘“’‘’‚ˆŸ ‚ Š€’€‹ƒ… 'D:\SPB-BET-WEB\baltenergotech.github.io' …‡ˆ’ˆŸ 
+2025.02.07 12:18:43 TEST  ‚…Š€ - OK 
+2025.02.07 12:18:43 INFO  …‡ˆ’ˆ‰ REPONAME: 'baltenergotech.github.io' 
+2025.02.07 12:18:43 INFO  RUN COMMAND 'autocommitpush' ... 
+2025.02.07 12:18:43 WARN  :GITAUTOCOMMITPUSH - START 
+2025.02.07 12:18:43 WARN  :GITAUTOCOMMITPUSH - ˜€ƒ 1 
+2025.02.07 12:18:43 INFO  GIT ADD AUTO COMMIT ... 
+2025.02.07 12:18:43 INFO  •‘’ ˆŒŸ ‹œ‡‚€’…‹Ÿ:           'win10-artam\artamonov ' 
+2025.02.07 12:18:43 INFO  COMMITTXT 'The autocommit has been added to '2025.02.07 12:18:43' from 'win10-artam\artamonov '' 
