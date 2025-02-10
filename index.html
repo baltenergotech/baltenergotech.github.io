@@ -3,25 +3,69 @@
 
 <head>
   <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Балтэнерготех</title>
+
   <link rel="icon" href="images/logo_БалтЭнергоТех.png" sizes="192x192">
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/dist/css/bootstrap-icons.min.css">
+
+  <style type="text/css">
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    /* Carousel base class */
+    .carousel {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      bottom: 3rem;
+      z-index: 10;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel-item {
+      height: 85vh;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 3rem;
+    }
+  </style>
+
 </head>
 
-<body class="container-fluid">
+<body class="cont ainer-fluid">
   <!-- Содержание страницы -->
-
   <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function (m, e, t, r, i, k, a) {
-      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+  <script type="text/javascript">(function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () {
+        (m[i].a = m[i].a || []).push(arguments)
+      }
+
+        ;
       m[i].l = 1 * new Date();
-      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+
+      for (var j = 0; j < document.scripts.length; j++) {
+        if (document.scripts[j].src === r) {
+          return;
+        }
+      }
+
       k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-    })
-      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
     ym(99307706, "init", {
       clickmap: true,
@@ -29,98 +73,270 @@
       accurateTrackBounce: true,
       webvisor: true
     });
-  </script>
-  <noscript>
+  </script><noscript>
     <div><img src="https://mc.yandex.ru/watch/99307706" style="position:absolute; left:-9999px;" alt="" /></div>
   </noscript>
   <!-- /Yandex.Metrika counter -->
 
-  <div class="container my-2">
-    <div class="p-5 text-center bg-body-tertiary rounded-3">
-      <img class="bi mt-4 mb-3" src="images\БалтЭнергоТех.gif" width="200" height="200">
-      <h1 class="text-body-emphasis text-uppercase">БАЛТЭНЕРГОТЕХ</h1>
-    </div>
-  </div>
+  <!-- ОСНОВНОЕ СОДЕРЖИМОЕ -->
+  <main>
+    <div class="container-fluid">
+      <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
-  <div class="container">
-    <p class="p-1 fs-4 text-center text-muted">
-      &#128400; АСУТП, Системы автоматизации, Системы электроснабжения предприятий &#128077;
-    </p>
-    <div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
 
-      <div class="container">
-        <nav class="navbar navbar-expand-md mb-4" style="background-color: #e3f2fd;">
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <ul class="navbar-nav">
+        <div class="carousel-inner bg-body-secondary p-2">
 
-                <li class="nav-item">
-                  <a class="nav-link active mx-2 border border-primary" aria-current="page" href="/"
-                    title="НАЧАЛО">Home</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link active mx-2 border border-primary" aria-current="page" href="Pages/Page1.html"
-                    title="Краткий обзор возможностей компании">About</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link disabled mx-2 border border-primary" href="#" tabindex="-1"
-                    aria-disabled="true">Disabled</a>
-                </li>
-
-              </ul>
+          <div class="carousel-item active" data-bs-interval="5000">
+            <div
+              class="container d-flex bg-body-tertiary rounded-2 h-100 w-100 align-items-center justify-content-center">
+              <div class="">
+                <!-- width="200" height="200" -->
+                <img class="m-2" src="images\БалтЭнергоТех.gif" />
+                <h1 class="text-center m-2 text-body-emphasis text-uppercase">БАЛТЭНЕРГОТЕХ</h1>
+              </div>
             </div>
           </div>
-        </nav>
 
-      </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <div class="container d-flex flex-column bg-body-tertiary rounded-2 h-100 w-100">
+              <div class="p-2">
+                <h3 class="text-center">Краткий обзор возможностей компании</h3>
+                <hr />
+              </div>
+              <div class="p-2">
+                <p class="lead text-justify" style="text-indent: 1.5em;"><b>ООО "Балтэнерготех"</b> &ndash; динамично
+                  развивающееся
+                  инжиниринговое предприятие, которое специализируется на решении проблем в области
+                  промышленной автоматизации сложных технологических процессов, электропривода, систем возбуждения,
+                  газопотребляющего оборудования,
+                  энергосберегающих технологий.</p>
+              </div>
+              <div class="p-2">
+                <p class="fs-6" style="text-indent: 1.5em;">
+                  Компания реализует полный комплекс инженерно-производственных услуг от проектирования до сдачи «под
+                  ключ»:
+                </p>
+              </div>
+              <div class="ps-4">
+                <ul>
+                  <li class="fs-6">обследование объектов</li>
+                  <li class="fs-6">разработка проекта ТЗ и ТЭО</li>
+                  <li class="fs-6">разработка технического проекта</li>
+                  <li class="fs-6">разработка полного комплекта рабочей документации</li>
+                  <li class="fs-6">изготовление и поставка оборудования</li>
+                  <li class="fs-6">строительно-монтажные и шеф-монтажные работы</li>
+                  <li class="fs-6">пуско-наладочные работы и сдача в промышленную эксплуатацию</li>
+                  <li class="fs-6">обучение персонала</li>
+                  <li class="fs-6">гарантийное и постгарантийное (сервисное) обслуживание</li>
+                  <li class="fs-6">постоянная техническая и консультационная поддержка</li>
+                </ul>
 
-      <div class="container">
-        <p class="p-1 text-center text-muted">
-          <a class="link-success text-decoration-none" href="https://baltenergotech.ru">#БАЛТЭНЕРГОТЕХ</a>
-          <a class="link-success text-decoration-none" href="https://baltenergotech.ru">#BALTENERGOTECH</a>
-        </p>      
-      </div>
+                <p class="text-center text-muted">
+                  <hr />
+                  &#128400; АСУТП, Системы автоматизации, Системы электроснабжения предприятий &#128077;
+                  <a class="link-success text-decoration-none" href="https://baltenergotech.ru">#БАЛТЭНЕРГОТЕХ</a>
+                  <a class="link-success text-decoration-none" href="https://baltenergotech.ru">#BALTENERGOTECH</a>
+                </p>
 
-      <div class="container fixed-bottom">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
-            <a href="https://baltenergotech.github.io"
-              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-              <img src="images/logo_БалтЭнергоТех.png" width="24" height="24" />
-            </a>
-            <span class="mb-3 mb-md-0 text-body-secondary">2025 &copy; <strong>ООО "Балтэнерготех"</strong></span>
+              </div>
+            </div>
           </div>
 
-          <div class="nav">
+          <div class="carousel-item" data-bs-interval="5000">
+            <div class="container d-flex flex-column bg-body-tertiary rounded-2 h-100 w-100">
+              <div class="p-2">
+                <h3 class="text-center">РАБОТЫ</h3>
+                <hr />
+              </div>
+              <div class="p-2 bg-dark">
+                <canvas id="myCanvas" class="p-1 w-100 h-100 overflow-hidden"></canvas>
+                <script>
 
-            <!-- Yandex.Metrika informer -->
-            <p class="col-lg-8 mx-auto fs-5 text-muted">
-              <img src="https://informer.yandex.ru/informer/99307706/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
-                style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
-                title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)">
-            </p>
-            <!-- /Yandex.Metrika informer -->
+                  const canvas1 = document.querySelector("canvas"),
+                        canvas2 = document.getElementById("myCanvas"),
+                    $ = canvas2.getContext("2d"),
+                    WIDTH = canvas2.width = window.innerWidth,
+                    HEIGHT = canvas2.height = window.innerHeight,
+                    FONT_WIDTH = 12,
+                    COUNT_OF_COLUMNS = Math.floor(WIDTH / FONT_WIDTH),
+                    CHANCE = 0.5,
+                    UPDATE_CURVE_INTERVAL = 15,
+                    RENDER_INTERVAL_MS = 150,
+                    TEXT_COLOR = "#0f0";
+
+                  $.font = FONT_WIDTH + "px system-ui";
+
+                  const ALPHABET = (
+                    'abcdefghijklmnopqrstuvwxyz' +
+                    'abcdefghijklmnopqrstuvwxyz'.toUpperCase() +
+                    '0123456789' +
+                    '!@#$%^&*-+'
+                  ).split('');
+
+                  let currentCurve = Array(COUNT_OF_COLUMNS),
+                    updateIterator = UPDATE_CURVE_INTERVAL,
+                    eventQueue = [],
+                    listenToEvents = false;
+
+                  function createCurve(columns, height) {
+                    const curve = [];
+
+                    for (let index = 0; index < columns; index++) curve[index] = [
+                      WIDTH / COUNT_OF_COLUMNS * index, // X-coordinate
+                      // Я так же в ручную уменьшаю значение коордианты Y на 20 пикселей.
+                      // Без этого верхняя часть канваса в момент работы кажется менее
+                      // живой и заполненной. Почему-то рандом, создающий кривую, 
+                      // чаще выводит координаты, что ближе к концу холста, и отнимание
+                      // 20 пикселей от результата немного компенсирует это. 
+                      Math.floor(Math.random() * height) - 20 // Y-coordinate 
+                    ];
+
+                    return curve;
+                  }
+
+                  const getRandomMember = arr => arr[Math.floor(Math.random() * arr.length)];
+
+                  async function drawBackground() {
+                    // Если кривая была зарендерена число раз, записанное 
+                    // в UPDATE_CURVE_INTERVAL, то пришло время нарисовать
+                    // создать кривую с новыми координатами.
+                    if (updateIterator === UPDATE_CURVE_INTERVAL)
+                      updateIterator = 0,
+                        currentCurve = createCurve(COUNT_OF_COLUMNS, HEIGHT);
+
+                    $.fillStyle = "rgba(0, 0, 0, .05)";
+                    $.fillRect(0, 0, WIDTH, HEIGHT);
+
+                    $.fillStyle = TEXT_COLOR;
+
+                    currentCurve = currentCurve.map(([x, y]) => {
+                      // Шанс (CHANCE) здесь отвечает за то, чтобы между буквами,
+                      // когда они смещаются по координате Y, оставились пропуски.
+                      if (CHANCE > Math.random()) $.fillText(getRandomMember(ALPHABET), x, y);
+
+                      // Здесь инкрементируем координату Y на каждой вершине кривой,
+                      // чтобы кривая спускалась вниз при каждой отрисовке.
+                      return [x, y + FONT_WIDTH];
+                    });
+
+                    updateIterator++;
+                  }
+
+                  async function drawByCursor() {
+                    eventQueue.map(event => {
+                      const [x, y] = event.coords;
+
+                      // Если обрабатываемая линия была отрендерена нужное
+                      // количество раз, то мы её удаляем из очереди с 
+                      // помощью фильтра и ничего не рисуем.
+                      if (event.rendered > UPDATE_CURVE_INTERVAL) {
+                        eventQueue = eventQueue.filter(e => e !== event);
+                        return;
+                      }
+
+                      if (CHANCE > Math.random()) $.fillText(getRandomMember(ALPHABET), x, y);
+
+                      // Для красоты, за каждый цикл рендеринга добавляем
+                      // не единицу к количеству требуемых рендеров, 
+                      // а лишь только половину, чтобы нарисованные линии выглядели
+                      // более длинными, чем те, что на бэкграунде.
+                      event.rendered += 0.5;
+                      event.coords[1] += FONT_WIDTH;
+                    });
+                  }
+
+                  window.addEventListener('mousedown', ({ clientX, clientY }) => {
+                    listenToEvents = true;
+
+                    eventQueue.push({
+                      coords: [clientX, clientY],
+                      rendered: 0,
+                    });
+                  });
+
+                  window.addEventListener('click', ({ clientX, clientY }) => {
+                    listenToEvents = false;
+
+                    eventQueue.push({
+                      coords: [clientX, clientY],
+                      rendered: 0,
+                    });
+                  });
+
+                  window.addEventListener('mousemove', ({ clientX, clientY }) => {
+                    if (listenToEvents) eventQueue.push({
+                      coords: [clientX, clientY],
+                      rendered: 0,
+                    });
+                  });
+
+                  setInterval(async () => {
+                    drawBackground();
+                    drawByCursor();
+                  }, RENDER_INTERVAL_MS);
+
+                </script>
+
+              </div>
+              <div class="p-2">
+                <p class="text-center text-muted">
+                  <hr />
+                  &#128400; АСУТП, Системы автоматизации, Системы электроснабжения предприятий &#128077;
+                  <a class="link-success text-decoration-none" href="https://baltenergotech.ru">#БАЛТЭНЕРГОТЕХ</a>
+                  <a class="link-success text-decoration-none" href="https://baltenergotech.ru">#BALTENERGOTECH</a>
+                </p>
+              </div>
+            </div>
 
           </div>
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3">
-              <a class="text-body-secondary" href="https://github.com/baltenergotech/baltenergotech.github.io"
-                title="GitHub">
-                <i class="bi bi-github"></i>
-              </a>
-            </li>
-            <li class="ms-3">
-              <a class="link-body-emphasis" href="https://baltenergotech.ru">
-                <i class="bi bi-link-45deg" title="Основной сайт компании"></i>
-              </a>
-            </li>
-          </ul>
-        </footer>
-      </div>
 
-      <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- НИЖНИЙ -->
+  <!-- FOOTER -->
+  <!-- div class="container-fluid fixed-bottom" -->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center border-top fixed-bottom m-2">
+    <div class="col-md-4 d-flex align-items-center"><a href="https://baltenergotech.github.io"
+        class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"><img src="images/logo_БалтЭнергоТех.png"
+          width="24" height="24" /></a><span class="mb-3 mb-md-0 text-body-secondary">2025 &copy;
+        <strong>ООО "Балтэнерготех" </strong></span></div>
+    <div class="nav">
+      <!-- Yandex.Metrika informer -->
+      <p class="col-lg-8 mx-auto fs-5 text-muted"><img
+          src="https://informer.yandex.ru/informer/99307706/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+          style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
+          title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"></p>
+      <!-- /Yandex.Metrika informer -->
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="https://github.com/baltenergotech/baltenergotech.github.io"
+          title="GitHub"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="https://baltenergotech.ru"><i class="bi bi-link-45deg"
+            title="Основной сайт компании"></i></a></li>
+    </ul>
+  </footer>
+  <!-- /div -->
+
+
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
