@@ -48,7 +48,7 @@
 
 </head>
 
-<body class="cont ainer-fluid">
+<body>
   <!-- Содержание страницы -->
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">(function (m, e, t, r, i, k, a) {
@@ -82,6 +82,16 @@
   <!-- ОСНОВНОЕ СОДЕРЖИМОЕ -->
   <main>
     <div class="container-fluid">
+
+      <div id="mess1" class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body">
+            ПЕРЕЗАГРУЗКА СТРАНИЦЫ
+          </div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+  
       <!-- data-bs-ride="carousel" -->
       <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
@@ -210,6 +220,7 @@
         </div>
       </div>
     </div>
+
   </main>
 
   <!-- НИЖНИЙ -->
@@ -229,16 +240,55 @@
       <!-- /Yandex.Metrika informer -->
     </div>
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="https://github.com/baltenergotech/baltenergotech.github.io"
-          title="GitHub"><i class="bi bi-github"></i></a></li>
-      <li class="ms-3"><a class="link-body-emphasis" href="https://baltenergotech.ru"><i class="bi bi-link-45deg"
-            title="Основной сайт компании"></i></a></li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="https://github.com/baltenergotech/baltenergotech.github.io" title="GitHub">
+		      <i class="bi bi-github"></i>
+        </a>
+      </li>
+      
+      <li class="ms-3">
+        <a class="link-body-emphasis" href="https://baltenergotech.ru">
+          <i class="bi bi-link-45deg" title="Основной сайт компании"></i>
+        </a>
+      </li>
+	
     </ul>
   </footer>
   <!-- /div -->
 
-
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-</body>
 
+<script>
+  var time1=300000;
+  const myToastEl1 = document.getElementById("mess1");
+  const myToast1 = new bootstrap.Toast(myToastEl1);
+  
+
+    function sleep(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+      currentDate = Date.now();
+      } while (currentDate - date < milliseconds);
+    }
+
+  function printMessage() { 
+    console.log("TOAST TEST");
+    myToast1.show();
+   }
+
+  myToastEl1.addEventListener("shown.bs.toast", () => {
+    //console.log("ПЕРЕЗАГРУЗКА - %s", window.location);
+    //sleep(2000);
+    //window.location.reload();
+    setTimeout(() => {  console.log("ПЕРЕЗАГРУЗКА - %s", window.location); window.location.reload();}, 2000);
+  })
+
+  setTimeout(printMessage, time1);
+  console.log("Таймер сработает через %i ms", time1);  
+  //console.log("ПЕРЕЗАГРУЗКА - %s", window.location);
+
+</script>
+
+</body>
 </html>

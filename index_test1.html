@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Балтэнерготех</title>
+
+  <link rel="icon" href="images/logo_БалтЭнергоТех.png" sizes="192x192">
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/dist/css/bootstrap-icons.min.css">
+
+  <style type="text/css">
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    /* Carousel base class */
+    .carousel {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      bottom: 3rem;
+      z-index: 10;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel-item {
+      height: 85vh;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 3rem;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <!-- Содержание страницы -->
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">(function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () {
+        (m[i].a = m[i].a || []).push(arguments)
+      }
+
+        ;
+      m[i].l = 1 * new Date();
+
+      for (var j = 0; j < document.scripts.length; j++) {
+        if (document.scripts[j].src === r) {
+          return;
+        }
+      }
+
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(99307706, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true
+    });
+  </script>
+
+ <noscript>
+    <div><img src="https://mc.yandex.ru/watch/99307706" style="position:absolute; left:-9999px;" alt="" /></div>
+ </noscript>
+  <!-- /Yandex.Metrika counter -->
+
+  <!-- ОСНОВНОЕ СОДЕРЖИМОЕ -->
+  <main>
+    <div class="container-fluid">
+
+      <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body">
+            Hello, world! This is a toast message.
+          </div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- НИЖНИЙ -->
+  <!-- FOOTER -->
+  <!-- div class="container-fluid fixed-bottom" -->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center border-top fixed-bottom m-2">
+    <div class="col-md-4 d-flex align-items-center"><a href="https://baltenergotech.github.io"
+        class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"><img src="images/logo_БалтЭнергоТех.png"
+          width="24" height="24" /></a><span class="mb-3 mb-md-0 text-body-secondary">2025 &copy;
+        <strong>ООО "Балтэнерготех" </strong></span></div>
+    <div class="nav">
+      <!-- Yandex.Metrika informer -->
+      <p class="col-lg-8 mx-auto fs-5 text-muted"><img
+          src="https://informer.yandex.ru/informer/99307706/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+          style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
+          title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"></p>
+      <!-- /Yandex.Metrika informer -->
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-body-secondary" href="https://github.com/baltenergotech/baltenergotech.github.io" title="GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+      </li>
+      
+      <li class="ms-3">
+        <a class="link-body-emphasis" href="https://baltenergotech.ru">
+          <i class="bi bi-link-45deg" title="Основной сайт компании"></i>
+        </a>
+      </li>
+	
+    </ul>
+  </footer>
+  <!-- /div -->
+
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+  var toastList = toastElList.map(function(toastEl) {
+      // Creates an array of toasts (it only initializes them)
+      return new bootstrap.Toast(toastEl) // No need for options; use the default options
+    });
+  toastList.forEach(toast => toast.show()); // This show them   
+  console.log(toastList); // Testing to see if it works
+
+</script>
+
+</body>
+</html>
